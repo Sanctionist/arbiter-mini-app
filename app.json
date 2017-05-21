@@ -1,0 +1,39 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/weather/weather",
+    "pages/weather/weather/weatherInfo",
+    "pages/maps/maps"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "SmallWeather",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh":true
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/home.png",
+      "selectedIconPath": "images/home.png" 
+    }, {
+      "pagePath": "pages/logs/logs",
+      "text": "日志",
+      "iconPath": "images/log.png",
+      "selectedIconPath": "images/log.png" 
+    }, {
+      "pagePath": "pages/weather/weather",
+      "text": "天气",
+      "iconPath": "images/weather.png",
+      "selectedIconPath": "images/weather.png" 
+    }]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

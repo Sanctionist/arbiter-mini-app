@@ -1,0 +1,8 @@
+<view class="section">
+  <input bindblur="bindblur" bindinput="bindinput" bindconfirm="bindconfirm" maxlength="10" placeholder="请输入地区名称" auto-focus="true" value="{{inputValue}}" />
+  <button bindtap="get_cur_loc" id="auto_find_loc">自动定位</button>
+</view>
+
+<block wx:for="{{locData}}" wx:key="unique">
+    <view class="selectQueue" data-text="{{item}}" bindtap="getWeather"> {{item}} </view>
+</block>

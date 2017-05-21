@@ -1,0 +1,11 @@
+.selectQueue{
+    background-color:red;
+}
+.section{
+    display: flex;  
+    flex-direction: row; 
+}
+#auto_find_loc{
+    height: 1.4rem;
+    line-height:1.5;
+}

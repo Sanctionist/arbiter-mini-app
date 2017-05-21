@@ -1,0 +1,6 @@
+<view id="city"> {{city}} </view>
+<view id="weather"> weather:{{weather}} </view>
+<view id="temperature"> temperature:{{temperature}} </view>
+<view id="wind"> windpower/winddirection:{{windpower}}/{{winddirection}} </view>
+<view id="humidity"> humidity:{{humidity}} </view>
+<view id="reporttime"> reporttime:{{reporttime}} </view>
