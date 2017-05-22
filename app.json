@@ -18,17 +18,17 @@
       "pagePath": "pages/index/index",
       "text": "首页",
       "iconPath": "images/home.png",
-      "selectedIconPath": "images/home.png" 
+      "selectedIconPath": "images/home-selected.png" 
     }, {
       "pagePath": "pages/logs/logs",
       "text": "日志",
       "iconPath": "images/log.png",
-      "selectedIconPath": "images/log.png" 
+      "selectedIconPath": "images/log-selected.png" 
     }, {
       "pagePath": "pages/weather/weather",
       "text": "天气",
       "iconPath": "images/weather.png",
-      "selectedIconPath": "images/weather.png" 
+      "selectedIconPath": "images/weather-selected.png" 
     }]
   },
   "networkTimeout": {
